@@ -9,8 +9,10 @@ create CONNECTION_URL into .env file, equal to MongoDB connection string
 OR
 
 in index.js file
+
 add 
 `const URL = "mongodb+srv://userid:password@cluster0.f9zrm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"`
+
 edit
 `mongoose.connect(URL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => app.listen(PORT, () => console.log(`Server running on port ${PORT}`)))
