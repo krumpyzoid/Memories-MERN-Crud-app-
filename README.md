@@ -1,5 +1,18 @@
-Requires node.js to run as well as Mongodb Atlas
+This is a small project developped while learning MongoDB, Express, React-Redux, NodeJS development.
+It was also deployed online using Heroku for the backend and Netlify for the front-end.
+Live demo can be accessed at https://tender-bassi-a35c3b.netlify.app/
 
+**Features**
+- API for CRUD purpose, using Axios
+- Like function (working as a counter)
+- Edit button populates form thanks to drilling
+- Form changes depending if it's creating or editing a post
+- Image upload using Base64
+- Dispatching and Reducers using Redux
+- Front-end design using @material-ui/core & /icons
+- Component styling using @material-ui/core/styles
+
+Requires node.js to run as well as Mongodb Atlas
 
 **MongoDB connection**
 
