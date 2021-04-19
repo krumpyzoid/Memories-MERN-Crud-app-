@@ -11,7 +11,7 @@ CONNECTION_URL = mongodb+srv://userid:password@cluster0.f9zrm.mongodb.net/myFirs
 
 OR
 
-in index.js file
+in /server/index.js file
 
 add 
 
