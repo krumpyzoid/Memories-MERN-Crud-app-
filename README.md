@@ -11,15 +11,15 @@ CONNECTION_URL = mongodb+srv://userid:password@cluster0.f9zrm.mongodb.net/myFirs
 
 OR
 
-in /server/index.js file
+in **/server/index.js** file
 
-add 
+**add**
 
 ```
 const URL = "mongodb+srv://userid:password@cluster0.f9zrm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 ```
 
-edit connection function to use URL instead of process.env.CONNECTION_URL
+**edit** connection function to use **URL** instead of **process.env.CONNECTION_URL**
 
 ```
 mongoose.connect(URL, { useNewUrlParser: true, useUnifiedTopology: true })
