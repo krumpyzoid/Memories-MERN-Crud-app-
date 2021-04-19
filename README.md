@@ -33,5 +33,5 @@ mongoose.connect(URL, { useNewUrlParser: true, useUnifiedTopology: true })
 2. cd into /server/
 3. Run `npm start`
 4. Open second terminal
-5. cd into /client
+5. cd into /client/
 6. Run `npm start`
