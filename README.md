@@ -1,6 +1,8 @@
 Requires node.js to run as well as Mongodb Atlas
 
+
 **MongoDB connection**
+
 create CONNECTION_URL into .env file, equal to MongoDB connection string
 `CONNECTION_URL = mongodb+srv://userid:password@cluster0.f9zrm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
 
@@ -15,6 +17,7 @@ edit
     .catch((error) => console.log(error));`
     
  **Start servers**
+ 
 1. Open terminal
 2. cd into /server/
 3. Run `npm start`
