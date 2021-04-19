@@ -17,9 +17,11 @@ add
 
 edit
 
-`mongoose.connect(URL, { useNewUrlParser: true, useUnifiedTopology: true })
+```
+mongoose.connect(URL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => app.listen(PORT, () => console.log(`Server running on port ${PORT}`)))
-    .catch((error) => console.log(error));`
+    .catch((error) => console.log(error));
+```
     
  **Start servers**
  
